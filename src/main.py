@@ -3,6 +3,7 @@ from PIL import Image
 im = Image.open(r"C:\Users\mohit\Desktop\demo\basic-auth-streamlit\src\views\image.ico")
 st.set_page_config(
                 page_title="Tork Analytics",
+                layout = "wide",
                 page_icon=im,
             )
 from views import dashboard, welcome
